@@ -340,7 +340,7 @@ ALTER TABLE `OCRB` ADD FOREIGN KEY (Cardcode) REFERENCES `OCRD` (`CardCode`);
 
 <div align="center">
 <p><b>Figura 1</b> - Mapa de entidade e relacionamento</p>
-<img src="../mapa.png" width="100%" >
+<img src="./mapa.png" width="100%" >
 <sup>Fonte: Material produzido pelo Grupo Hermes (2024)</sup>
 </div>
 
