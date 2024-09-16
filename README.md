@@ -1,6 +1,8 @@
 # Modelagem de dados / Arquitetura corporativa
 
 ## XML:
+```
+
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
 <!-- Active URL: https://sql.toad.cz/ -->
@@ -216,8 +218,11 @@
 </table>
 </sql>
 
+```
 
 ## SQL:
+
+```
 
 -- ---
 -- Globals
@@ -335,6 +340,8 @@ ALTER TABLE `OCRB` ADD FOREIGN KEY (Cardcode) REFERENCES `OCRD` (`CardCode`);
 -- ('','','','','','','','','','','','','','');
 -- INSERT INTO `OCRB` (`id`,`Cardcode`,`LineNum`,`County`,`BankCode`,`Branch`,`UserNo1`,`AccountNo`,`UserNo2`,`AccountName`) VALUES
 -- ('','','','','','','','','','');
+
+```
 
 ## Mapa de entidade e relacionamento
 
